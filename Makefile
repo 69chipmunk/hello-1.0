@@ -3,7 +3,7 @@ hello:hello.c
 
 .PHONY: install
 install: hello
-	cp hello /home
+	sudo cp hello /home
 
 .PHONY:clean
 clean:
