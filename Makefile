@@ -3,7 +3,7 @@ hello:hello.c
 
 .PHONY: install
 install: hello
-	cp hello /home/admin/hello
+	cp hello $(pwd)
 
 .PHONY:clean
 clean:
